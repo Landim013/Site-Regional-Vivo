@@ -1,0 +1,345 @@
+@charset "UTF-8";
+body{
+    margin: auto;
+   
+    width: 100%; 
+    min-width: 580px; 
+    max-width: 100%;
+    align-items: center;    
+    
+    /* background-image:  url('imgs/rooftop.png');
+    background-image: url('imgs_home/degradefundo1.png');*/
+    background-color: rgba(103, 0, 154,0.5);  
+  
+    background-repeat: no-repeat ;
+    background-size: 100%;
+    background-position: 100%;
+    background-position: 0px ;
+    overflow-x: hidden;
+
+}
+body::-webkit-scrollbar {
+    width: 15px;              
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(165, 150, 248);        
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(103, 0, 154);   
+    border-radius: 20px;      
+    border: 2px solid rgb(245, 243, 243);  
+  }
+
+div#cabecario{
+    background-color: rgb(103, 0, 154);
+    height: 200px;
+    margin-top: -20px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0%;   
+    z-index: 1;  
+    
+    
+    
+}
+figure#faixa{
+    display: flex;
+    justify-content: center;
+}
+img#faixa{
+    width: 100%;
+    height: 100px;
+    padding-top: 30px;
+}
+figure#logo{
+    display:block;
+    justify-content:end;
+}
+img#logosp{
+    width: 100px;
+    top: 30px;
+    left: 30px;    
+    position: absolute;
+    
+}
+div#vivoanime {
+    
+    height: 70px;
+    max-width: 1200px;
+    position: absolute;
+    
+    align-items: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    
+     
+ }
+ div#vivoanime img#logo{
+     position: relative;
+     width: 200px;
+     height: 87px;
+     z-index: 2;
+     top: 30px;
+     
+     
+     
+     
+ } div#vivoanime {
+    flex: 1;
+    height: 70px;
+    max-width: 1200px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+   
+    margin-top: 30px;
+    margin-left:-1390px;
+     
+ }
+ div#vivoanime img#logo{
+     position: relative;
+     height: 87px;
+     margin: 0px 0px;
+     z-index: 2;
+     padding: 110px;
+     
+ }
+ .doll{
+     position: absolute;
+     left: 0px;
+    
+     width: 40px;
+     padding: 110px;
+     
+    
+     opacity: 0;
+     transition: opacity 1s;
+ }
+ div#vivoanime img#doll-1{
+     left: 0px;
+     z-index: 3;
+     left: -10px;
+     width: 35px;
+     height: 60px;
+     
+ }
+ div#vivoanime img#doll-2{
+     left: 27px;
+     margin-top: 8px;
+     z-index: 1;
+     width: 15px;
+     height: 50px;
+     
+ }div#vivoanime img#doll-3{
+    left: 45px;
+     width: 35px;
+     height: 60px;
+ 
+ }div#vivoanime img#doll-4{
+     left:82px;
+     z-index: 3;
+     width: 35px;
+     height: 60px;
+    
+     
+ }div#vivoanime img#doll-5{
+     left: 120px;
+     width: 30px;
+     height: px;
+     
+ }                
+ 
+ .doll-entrance{
+     opacity: 1;
+ }
+
+nav#menu  li a#btnHome{
+    background-color: rgba(165, 150, 248, 0.7);
+    opacity: 0.4;
+}
+nav#menu li a#btnRelatorio{
+    background-color: rgba(165, 150, 248, 0.7);
+    border: 1px  solid white;
+    
+}
+nav#menu li a#btnSistemas{
+    background-color: rgba(165, 150, 248, 0.7);
+    opacity: 0.4;
+}
+
+nav#menu{
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+nav#menu a{
+    
+    border: 1px  solid white;
+    text-decoration:none;
+    color: white;
+    font-size: 18pt;
+    font-family:('Segoe UI', Tahoma, Geneva, Verdana, sans-serif);
+    border-radius: 10px 20px 30px 40px;
+    border: 20px white;
+    background-color: rgba(165, 150, 248, 0.7);
+    padding: 10px 35px 10px 35px;
+    align-items: center;
+    text-align: center;
+
+}
+nav#menu a#btnhome{
+    padding-left: 45px;
+    padding-right: 45px;
+
+}
+nav#menu ul{
+    display: flex;    
+   position: relative;
+   margin-top: -190px;
+   
+}
+nav#menu  li{
+    position: relative;
+    list-style: none;
+    float: left;
+    align-items: center;
+    padding-inline-end: 30px;
+    top: -30px;
+    
+}
+nav#menurelatorio{
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav#menurelatorio a#reportB2B{
+    background-color: rgba(165, 150, 248, 0.7);
+}
+nav#menurelatorio a{
+    
+    text-decoration:none;
+    color: white;
+    font-size: 18pt;
+    font-family:('Segoe UI', Tahoma, Geneva, Verdana, sans-serif);
+    border-radius: 10px 20px 30px 40px;
+    border: 20px white;
+  
+    padding: 10px 35px 10px 35px;
+    align-items: center;
+    text-align: center;
+
+}
+nav#menurelatorio a#btnhome{
+    padding-left: 45px;
+    padding-right: 45px;
+
+}
+nav#menurelatorio ul{
+    display: flex;    
+   position: relative;
+   margin-top: -30px;
+   
+}
+nav#menurelatorio  li{
+    position: relative;
+    list-style: none;
+    float: left;
+    align-items: center;
+    padding-inline-end: 30px;
+    top: -40px;
+    
+}
+
+/*################################################ CONTEUDO ################################################# */
+
+section#conteudo{
+    /*background-color:rgba(247, 240, 247, 0.5);*/
+    background-color: rgb(255, 255,255);
+    backdrop-filter: blur(3px);
+    width: 1040px;
+    height: 630px;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 60px;
+    
+}
+div#conteudoDash{
+    width: 780px;
+    height: 500px;
+    position: relative;
+    padding: 10px;
+}
+
+
+
+/* ############################################ RODAPÉ  #######################################################*/
+
+figure#rodape{   
+    width: 100%;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    
+}
+div#rodape{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(103, 0, 154);
+    margin-top: 30px;
+    position: absolute;
+    margin: auto; 
+    display: flex;
+    justify-content: center;
+   
+}
+
+nav#rodape a{
+    
+    text-decoration:none;
+    color: white;
+    font-size: 16pt;
+    font-family:('Segoe UI', Tahoma, Geneva, Verdana, sans-serif);
+    border-radius: 10px 20px 30px 40px;
+    border: 20px white;
+  
+    padding: 15px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+
+}
+nav#rodape a#btnhome{
+    padding-left: 45px;
+    padding-right: 45px;
+
+}
+nav#rodape ul{
+    display: flex;    
+   position: relative;
+   margin-top: 40px;
+   
+}
+nav#rodape  li{
+    position: relative;
+    list-style: none;
+    float: left;
+    align-items: center;
+    padding-inline-end: 30px;
+    top: 0px;
+    
+}
